@@ -18,6 +18,14 @@ public class PlayerMovement : MonoBehaviour
         _rb2d = GetComponent<Rigidbody2D>();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _rb2d.velocity = new Vector2(_rb2d.velocity.x, jumpForce * 2 * Time.deltaTime);
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
