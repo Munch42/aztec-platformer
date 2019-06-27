@@ -477,8 +477,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: levelNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: sceneNumber
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65, type: 3}
+--- !u!1 &1665777311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5534194282315157403, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1665777310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1678273164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -546,5 +562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1907445950997986492, guid: b8209d4b6be9ff2419277511dd3bdcc5,
+        type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 1665777311}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8209d4b6be9ff2419277511dd3bdcc5, type: 3}

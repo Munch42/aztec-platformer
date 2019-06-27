@@ -21,7 +21,6 @@ public class ParticleActivate : MonoBehaviour
         print("Sending Loading Instruction");
         loadingNextSceneObject = sceneLoader.GetComponent<SceneLoader>();
         loadingNextSceneObject.levelComplete = true;
-        loadingNextSceneObject.levelNumber += 1;
         Debug.Log("You won!");  
     }
 }

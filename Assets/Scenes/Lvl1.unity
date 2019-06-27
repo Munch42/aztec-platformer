@@ -318,7 +318,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -366,6 +366,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &884766988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5534194282315157403, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 5534194281623524026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &889406072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -798,6 +804,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1907445950997986492, guid: b8209d4b6be9ff2419277511dd3bdcc5,
+        type: 3}
+      propertyPath: sceneLoader
+      value: 
+      objectReference: {fileID: 884766988}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8209d4b6be9ff2419277511dd3bdcc5, type: 3}
 --- !u!1001 &5534194281623524026
@@ -866,6 +877,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: levelNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: sceneNumber
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65, type: 3}
