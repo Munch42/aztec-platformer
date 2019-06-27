@@ -71,6 +71,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smokeParticleSystem: {fileID: 8424241253125836168}
+  sceneLoader: {fileID: 5534194282315157403, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+    type: 3}
 --- !u!1 &1907445952541742232
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,11 +245,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1907445952883181750}
     m_Modifications:
-    - target: {fileID: 5191188204655405879, guid: 2b3518092af93074a81e743d968b851e,
-        type: 3}
-      propertyPath: m_Name
-      value: Smoke
-      objectReference: {fileID: 0}
     - target: {fileID: 5191188204655405882, guid: 2b3518092af93074a81e743d968b851e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -302,6 +299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5191188204655405879, guid: 2b3518092af93074a81e743d968b851e,
+        type: 3}
+      propertyPath: m_Name
+      value: Smoke
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b3518092af93074a81e743d968b851e, type: 3}
