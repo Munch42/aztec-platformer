@@ -8,12 +8,20 @@ public class SceneLoader : MonoBehaviour
 
     public bool levelComplete = false;
     public int levelNumber = 0;
+    public float waitTime = 4f;
     public string[] scenes;
 
     // Start is called before the first frame update
     void Start()
     {
         levelNumber += 1;
+    }
+
+    IEnumerator changeScene()
+    {
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene(scenes[levelNumber], LoadSceneMode.Single);
+        levelComplete = false;
     }
 
     // Update is called once per frame
@@ -23,8 +31,7 @@ public class SceneLoader : MonoBehaviour
         if (levelComplete == true)
         {
             print("Loading Next Scene");
-            SceneManager.LoadScene(scenes[levelNumber], LoadSceneMode.Single);
-            levelComplete = false;
+            StartCoroutine("changeScene");
         }
     }
 }

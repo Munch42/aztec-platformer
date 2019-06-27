@@ -880,6 +880,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
         type: 3}
+      propertyPath: scenes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
       propertyPath: levelNumber
       value: 0
       objectReference: {fileID: 0}
@@ -887,6 +892,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneNumber
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157400, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: scenes.Array.data[3]
+      value: Chee
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65, type: 3}
