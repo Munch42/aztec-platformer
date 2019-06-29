@@ -34,4 +34,18 @@ public class SceneLoader : MonoBehaviour
             StartCoroutine("changeScene");
         }
     }
+
+    public void startGame()
+    {
+        waitTime = 0f;
+        levelNumber = 0;
+        levelComplete = true;
+    }
+
+    public void selectLevel(int selectedLevelNum)
+    {
+        levelNumber = selectedLevelNum;
+        waitTime = 0f;
+        levelComplete = true;
+    }
 }
