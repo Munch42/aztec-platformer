@@ -40,6 +40,7 @@ public class SceneLoader : MonoBehaviour
         waitTime = 0f;
         levelNumber = 0;
         levelComplete = true;
+        Time.timeScale = 1f;
     }
 
     public void selectLevel(int selectedLevelNum)
@@ -47,5 +48,6 @@ public class SceneLoader : MonoBehaviour
         levelNumber = selectedLevelNum;
         waitTime = 0f;
         levelComplete = true;
+        Time.timeScale = 1f;
     }
 }
