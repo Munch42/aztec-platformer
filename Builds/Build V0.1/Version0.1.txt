@@ -1,0 +1,1 @@
+This version includes 3 levels and a main menu. There is also a pause menu which is accessed by pressing escape. Enjoy!
