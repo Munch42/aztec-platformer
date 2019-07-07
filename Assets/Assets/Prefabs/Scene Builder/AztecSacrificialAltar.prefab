@@ -236,7 +236,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!1001 &4387109541275182769
 PrefabInstance:
@@ -326,11 +326,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1907445952883181750}
     m_Modifications:
-    - target: {fileID: 5534194282315157403, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
-        type: 3}
-      propertyPath: m_Name
-      value: SceneLoader
-      objectReference: {fileID: 0}
     - target: {fileID: 5534194282315157401, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -385,6 +380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534194282315157403, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c0ffda6ee03df4ab4d7c7bf8675b65, type: 3}
